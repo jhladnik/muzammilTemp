@@ -154,17 +154,17 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #5EA2C5;
+		color: #45b07a;
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #75b6d7;
+			color: #4d9975;
 			text-decoration: none;
 		}
 
 		a:active {
-			color: #5EA2C5;
+			color: #45b07a;
 		}
 
 	strong, b {
@@ -1957,7 +1957,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #5EA2C5;
+			background-color: #45b07a;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -1967,8 +1967,8 @@ input, select, textarea {
 			input[type="button"].primary:after,
 			button.primary:after,
 			.button.primary:after {
-				background: #5594b4;
-				color: #327495;
+				background: #2bad6c;
+				color: #32953e;
 			}
 
 			input[type="submit"].primary:hover,
@@ -1976,7 +1976,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #75b6d7;
+				background-color: #21ad67;
 			}
 
 				input[type="submit"].primary:hover:after,
@@ -1984,7 +1984,7 @@ input, select, textarea {
 				input[type="button"].primary:hover:after,
 				button.primary:hover:after,
 				.button.primary:hover:after {
-					background: #679fbc;
+					background: #42a372;
 				}
 
 			input[type="submit"].primary:active,
@@ -1992,7 +1992,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #5EA2C5;
+				background-color: #45b07a;
 			}
 
 				input[type="submit"].primary:active:after,
@@ -2000,8 +2000,8 @@ input, select, textarea {
 				input[type="button"].primary:active:after,
 				button.primary:active:after,
 				.button.primary:active:after {
-					background: #5594b4;
-					color: #327495;
+					background: #2bad6c;
+					color: #32953e;
 				}
 
 		input[type="submit"].small,
@@ -2220,8 +2220,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5EA2C5;
-			box-shadow: 0 0 0 1px #5EA2C5;
+			border-color: #21ad67;
+			box-shadow: 0 0 0 1px #53a77d;
 		}
 
 	label {
@@ -2328,16 +2328,16 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background-color: #5EA2C5;
-			border-color: #5EA2C5;
+			background-color: #35a06b;
+			border-color: #35a06b;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #5EA2C5;
-			box-shadow: 0 0 0 1px #5EA2C5;
+			border-color: #35a06b;
+			box-shadow: 0 0 0 1px #35a06b;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2419,7 +2419,7 @@ input, select, textarea {
 		}
 
 			.icon.alt:before {
-				color: #5EA2C5;
+				color: #35a06b;
 				font-size: 1.15rem;
 				position: relative;
 				top: 0.05rem;
@@ -2467,7 +2467,7 @@ input, select, textarea {
 	}
 
 		.image:after {
-			background: linear-gradient(45deg, #5EA2C5 20%, #49A8C4 100%);
+			background: linear-gradient(45deg, #60a884 20%, #0a9862 100%);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3319,7 +3319,7 @@ input, select, textarea {
 				}
 
 					#header > nav > ul > li.current {
-						border-bottom: 3px solid #5EA2C5;
+						border-bottom: 3px solid #60a884;
 					}
 
 						#header > nav > ul > li.current a {
@@ -3353,7 +3353,7 @@ input, select, textarea {
 					}
 
 		.dropotron {
-			background-color: #5EA2C5;
+			background-color: #35a06b;
 			border-radius: 0.5rem;
 			list-style-type: none;
 			margin: -0.5rem 0 0 1px;
@@ -3371,7 +3371,7 @@ input, select, textarea {
 					-webkit-transform: rotate(45deg);
 					-ms-transform: rotate(45deg);
 					transform: rotate(45deg);
-					background-color: #5EA2C5;
+					background-color: #287a51;
 					content: '';
 					height: 0.75rem;
 					position: absolute;
@@ -3522,7 +3522,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background-color: #5EA2C5;
+		background-color: #35a06b;
 		box-shadow: none;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;

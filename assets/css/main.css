@@ -2467,7 +2467,6 @@ input, select, textarea {
 	}
 
 		.image:after {
-			background: linear-gradient(45deg, #60a884 20%, #0a9862 100%);
 			content: '';
 			height: 100%;
 			left: 0;

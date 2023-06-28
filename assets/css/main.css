@@ -3277,6 +3277,7 @@ input, select, textarea {
 
 		#header > .logo {
 			color: #ffffff;
+			font-family: 'Courier New', Courier, monospace;
 			font-size: 1.25rem;
 			font-weight: 700;
 			height: inherit;

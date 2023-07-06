@@ -3410,6 +3410,10 @@ input, select, textarea {
 				.dropotron a:active, .dropotron a:hover, .dropotron a:focus {
 					color: #ffffff;
 				}
+			
+			.soon {
+				color: red;
+			}
 
 		#header > .navPanelToggle {
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;

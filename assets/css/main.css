@@ -3369,8 +3369,14 @@ input, select, textarea {
 
 			.dropotron.level-0 {
 				margin-top: 1.125rem;
+				margin-left: 0;
+			}
+
+			.dropotron.level-0.dropdown-menu{
+				margin-top: 1.125rem;
 				margin-left: -200px;
 			}
+
 				/* dropotron arrow */
 				.dropotron.level-0:before {
 					-moz-transform: rotate(45deg);

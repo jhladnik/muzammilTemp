@@ -3286,7 +3286,7 @@ input, select, textarea {
 			color: #ffffff;
 			font-family: 'Courier New', Courier, monospace;
 			font-size: 1.25rem;
-			font-weight: 700;
+			font-weight: 400;
 			height: inherit;
 			line-height: inherit;
 			text-decoration: none;
@@ -3699,6 +3699,12 @@ input, select, textarea {
 	right: 0;
 	margin-bottom: 20px;
 	padding-top: 100px;
+  }
+
+  .grBand {
+	color: white;
+	background-color: #45b07a;
+	padding-top: o;
   }
 
 /* Banner */

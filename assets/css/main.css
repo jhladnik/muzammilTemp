@@ -3906,7 +3906,7 @@ input, select, textarea {
 /* Main Wrapper */
 
 	#wrapper section:first-child.wrapper.style1:before {
-		background: #24242a;
+		background: #1f1f24;
 		content: '';
 		height: 19.5rem;
 		left: 0;

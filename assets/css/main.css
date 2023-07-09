@@ -130,7 +130,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #24242a;
+		background-color: #1f1f24;
 		color: rgba(255, 255, 255, 0.5);
 	}
 
@@ -3931,6 +3931,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
+		background-color: #24242a;
 	}
 
 		#footer .contact-form {

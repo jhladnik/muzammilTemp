@@ -154,12 +154,12 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #45b07a;
-		text-decoration: underline;
+		color: rgba(255, 255, 255, 0.5);
+		text-decoration: none;
 	}
 
 		a:hover {
-			color: #4d9975;
+			color: rgba(255, 255, 255, 0.35);
 			text-decoration: none;
 		}
 

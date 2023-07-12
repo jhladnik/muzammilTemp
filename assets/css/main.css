@@ -3248,14 +3248,6 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-		@media screen and (max-width: 980px) {
-
-			body {
-				padding-top: 44px;
-			}
-
-		}
-
 	#header {
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3700,13 +3692,12 @@ input, select, textarea {
 	left: 0;
 	right: 0;
 	margin-bottom: 20px;
-	padding-top: 100px;
+	padding-top: 150px;
   }
 
   .grBand {
 	color: white;
 	background-color: #45b07a;
-	padding-top: o;
   }
 
 /* Banner */
@@ -3715,9 +3706,18 @@ input, select, textarea {
 		margin-top: -6rem;
 	}
 
-	#banner.wrapper {
+	/* #banner.wrapper {
 		padding-bottom: 4rem;
 		padding-top: 16rem;
+	} */
+
+	#banner.wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+		padding-bottom: 2.5rem;
+		padding-top: 10rem;
+		text-align: center;
 	}
 
 	#banner .inner {
@@ -3725,6 +3725,17 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+	}
+
+	#banner .inner {
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 
 	#banner .content {
@@ -3793,21 +3804,21 @@ input, select, textarea {
 
 		#banner.wrapper {
 			padding-bottom: 2rem;
-			padding-top: 14rem;
+			padding-top: 13rem;
 		}
 
 	}
-
+	/* RightHere */
 	@media screen and (max-width: 1280px) {
 
-		#banner.wrapper {
+		/* #banner.wrapper {
 			margin-left: auto;
 			margin-right: auto;
 			max-width: 100%;
 			padding-bottom: 2.5rem;
 			padding-top: 10rem;
 			text-align: center;
-		}
+		} */
 
 		#banner ul.actions {
 			-moz-justify-content: center;
@@ -3869,7 +3880,7 @@ input, select, textarea {
 
 		#banner.wrapper {
 			padding-bottom: 1rem;
-			padding-top: 11rem;
+			padding-top: 13rem;
 		}
 
 		#banner .image-wrapper {
@@ -3882,7 +3893,7 @@ input, select, textarea {
 
 		#banner.wrapper {
 			max-width: 100%;
-			padding-top: 10rem;
+			padding-top: 13rem;
 		}
 
 		#banner .image-wrapper {

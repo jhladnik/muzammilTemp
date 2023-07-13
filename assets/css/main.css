@@ -3068,6 +3068,35 @@ input, select, textarea {
 			margin-bottom: 0 !important;
 		}
 
+		.spotlights .square {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			flex-direction: column;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			height: 300px;
+			width: 300px;
+			background: #2e2e35;
+			border-radius: 7px;
+			margin-bottom: 4.8125rem;
+			max-height: 30rem;
+			overflow: hidden;
+		}
+
+		.spotlights .squareImage {
+			order: 1;
+		}
+		/* Creating issue with city's alt format */
+		.spotlights .content {
+			order: 2;
+		}
+
 		.spotlights .spotlight {
 			display: -moz-flex;
 			display: -webkit-flex;

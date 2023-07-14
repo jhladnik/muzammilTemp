@@ -46,7 +46,7 @@
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			alignment: 'right',
-			hideDelay: 350,
+			hideDelay: 550,
 			baseZIndex: 100000
 		});
 

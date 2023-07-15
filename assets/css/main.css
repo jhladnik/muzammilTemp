@@ -3093,8 +3093,9 @@ input, select, textarea {
 			order: 1;
 		}
 		/* Creating issue with city's alt format */
-		.spotlights .content {
+		.spotlights .squareContent {
 			order: 2;
+			min-width: 60%;
 		}
 
 		.spotlights .spotlight {

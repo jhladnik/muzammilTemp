@@ -2085,7 +2085,7 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.25;
 		}
-		
+
  /* Button Enter/Right */
 		input[type="submit"],
 		input[type="reset"],
@@ -3866,6 +3866,29 @@ input, select, textarea {
 	margin-bottom: 20px;
 	padding-top: 150px;
   }
+
+  	@media screen and (max-width: 522px){
+		
+		.title {
+			font-size: 24px;
+			padding-top: 160px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		
+		.title {
+			padding-top: 150px;
+		}
+	}
+
+	@media screen and (max-width: 348px) {
+
+		.title {
+			padding-top: 152px;
+			font-size: 18px;
+		}
+	}
 
   .grBand {
 	color: white;

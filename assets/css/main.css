@@ -2228,6 +2228,36 @@ input, select, textarea {
 						color: #32953e;
 					}
 
+/* Time Box */
+
+	.time {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: #45b07a;
+		border-radius: 7px;
+		border: 0;
+		color: #ffffff !important;
+		display: inline-block;
+		font-family: inherit;
+		font-size: inherit;
+		font-weight: 500;
+		height: 3rem;
+		line-height: 3rem;
+		overflow: hidden;
+		padding: 0 2rem 0 2rem;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		margin-bottom: 2px;
+	}
+
 /* Form */
 
 	form {

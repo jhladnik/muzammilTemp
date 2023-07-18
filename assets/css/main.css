@@ -3264,7 +3264,7 @@ input, select, textarea {
 		.spotlights .squareImage {
 			order: 1;
 		}
-		/* Creating issue with city's alt format */
+		
 		.spotlights .squareContent {
 			order: 2;
 			min-width: 60%;
@@ -3393,6 +3393,11 @@ input, select, textarea {
 					.spotlights .spotlight .content {
 						padding: 2rem 1.5rem 1.5rem 1.5rem;
 					}
+
+				.squareContent {
+					padding-bottom: 2rem;
+					font-size: 18px;
+				}
 
 			}
 

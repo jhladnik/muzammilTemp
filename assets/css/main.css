@@ -3311,6 +3311,17 @@ input, select, textarea {
 			.spotlights .spotlight .content {
 				min-width: 60%;
 				padding: 5.5rem;
+				display: flex;
+			}
+
+			.split {
+				flex: 1;
+				padding-right: 3rem;
+			}
+
+			.vert {
+				border-left: 2px solid #21ad67;
+				padding-left: 3rem;
 			}
 
 				.spotlights .spotlight .content > :last-child {

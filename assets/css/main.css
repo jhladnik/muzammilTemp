@@ -2229,6 +2229,128 @@ input, select, textarea {
 						color: #32953e;
 					}
 
+/* Button No Arrow */
+		input[type="submit"],
+		input[type="reset"],
+		input[type="button"],
+		buttonPlain,
+		.buttonPlain {
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+			background-color: #2e2e35;
+			border-radius: 7px;
+			border: 0;
+			box-shadow: inset 0px 0px 0px 3px #3e3e47;
+			color: #ffffff !important;
+			cursor: pointer;
+			display: inline-block;
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: 700;
+			height: 3rem;
+			line-height: 3rem;
+			overflow: hidden;
+			padding: 0 3.5rem 0 3rem;
+			position: relative;
+			text-align: center;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+
+			input[type="submit"]:hover,
+			input[type="reset"]:hover,
+			input[type="button"]:hover,
+			buttonPlain:hover,
+			.buttonPlain:hover {
+				background-color: #3a3a43;
+				box-shadow: inset 0px 0px 0px 3px #4a4a55;
+			}
+
+				input[type="submit"]:hover:after,
+				input[type="reset"]:hover:after,
+				input[type="button"]:hover:after,
+				buttonPlain:hover:after,
+				buttonPlain:hover:after {
+					background-color: #4a4a55;
+				}
+
+			input[type="submit"]:active,
+			input[type="reset"]:active,
+			input[type="button"]:active,
+			buttonPlain:active,
+			.buttonPlain:active {
+				background-color: #2e2e35;
+				box-shadow: inset 0px 0px 0px 3px #3e3e47;
+			}
+
+				input[type="submit"]:active:after,
+				input[type="reset"]:active:after,
+				input[type="button"]:active:after,
+				buttonPlain:active:after,
+				.buttonPlain:active:after {
+					background: #3e3e47;
+					color: #2e2e35;
+				}
+
+			input[type="submit"].primary,
+			input[type="reset"].primary,
+			input[type="button"].primary,
+			buttonPlain.primary,
+			.buttonPlain.primary {
+				background-color: #45b07a;
+				box-shadow: none;
+				color: #ffffff !important;
+				
+			}
+
+				input[type="submit"].primary:after,
+				input[type="reset"].primary:after,
+				input[type="button"].primary:after,
+				buttonPlain.primary:after,
+				.buttonPlain.primary:after {
+					background: #2bad6c;
+					color: #32953e;
+				}
+
+				input[type="submit"].primary:hover,
+				input[type="reset"].primary:hover,
+				input[type="button"].primary:hover,
+				buttonPlain.primary:hover,
+				.buttonPlain.primary:hover {
+					background-color: #21ad67;
+				}
+
+					input[type="submit"].primary:hover:after,
+					input[type="reset"].primary:hover:after,
+					input[type="button"].primary:hover:after,
+					buttonPlain.primary:hover:after,
+					.buttonPlain.primary:hover:after {
+						background: #42a372;
+					}
+
+				input[type="submit"].primary:active,
+				input[type="reset"].primary:active,
+				input[type="button"].primary:active,
+				buttonPlain.primary:active,
+				.buttonPlain.primary:active {
+					background-color: #45b07a;
+				}
+
+					input[type="submit"].primary:active:after,
+					input[type="reset"].primary:active:after,
+					input[type="button"].primary:active:after,
+					buttonPlain.primary:active:after,
+					.buttonPlain.primary:active:after {
+						background: #2bad6c;
+						color: #32953e;
+					}
+
 /* Time Box */
 
 	.time {

@@ -4113,6 +4113,15 @@ input, select, textarea {
 		width: 50%;
 	}
 
+	#banner .contentCenter {
+		-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
+		-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
+		-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
+		transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
+		text-align: center;
+		padding-top: 5rem;
+	}
+
 		#banner .content > :last-child {
 			margin-bottom: 0;
 		}
@@ -4151,6 +4160,14 @@ input, select, textarea {
 			}
 
 	body.is-preload #banner .content {
+		-moz-transform: translateX(-0.5rem);
+		-webkit-transform: translateX(-0.5rem);
+		-ms-transform: translateX(-0.5rem);
+		transform: translateX(-0.5rem);
+		opacity: 0;
+	}
+
+	body.is-preload #banner .contentCenter {
 		-moz-transform: translateX(-0.5rem);
 		-webkit-transform: translateX(-0.5rem);
 		-ms-transform: translateX(-0.5rem);

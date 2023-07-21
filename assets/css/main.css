@@ -4035,10 +4035,10 @@ input, select, textarea {
 	left: 0;
 	right: 0;
 	margin-bottom: 20px;
-	padding-top: 150px;
+	padding-top: 152px;
   }
 
-  	@media screen and (max-width: 522px){
+  	@media screen and (max-width: 604px){
 		
 		.title {
 			font-size: 24px;
@@ -4053,10 +4053,10 @@ input, select, textarea {
 		}
 	}
 
-	@media screen and (max-width: 348px) {
+	@media screen and (max-width: 403px) {
 
 		.title {
-			padding-top: 152px;
+			padding-top: 154px;
 			font-size: 18px;
 		}
 	}

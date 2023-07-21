@@ -4062,7 +4062,11 @@ input, select, textarea {
 
   .grBand {
 	color: white;
+	min-height: 2.25rem;
 	background-color: #45b07a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
   }
 
 /* Banner */

@@ -4005,7 +4005,8 @@ input, select, textarea {
 /* Main Title Section */
   
   .background {
-	background-image: url('https://ssl.gstatic.com/atari/images/impression-header.png');
+	background-image: url('/images/worldmap.jpg');
+	/* background-image: url('/images/northamerica.jpg'); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
